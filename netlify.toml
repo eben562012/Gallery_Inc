@@ -1,9 +1,4 @@
-[build]
-
-base = "Gallery_Inc/"
-
-publish = "dist/"
-
-#Default build command
-
-functions = "functions/"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
